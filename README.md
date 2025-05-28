@@ -11,13 +11,16 @@ Blog Post: https://cpthilda0079.github.io/Viper-C2/
 ### How to use
 
 Just install the requirements:
-
 ```
 pip3 install -r requirements.txt
 ```
 
-Then start the server/client:
+Replace Server_URL with the IP of your local machine/C2 server
+```
+SERVER_URL = "http://<IP>:4444"
+```
 
+Then start the server/client:
 ```
 python3 C2_Server.py
 python3 C2_Agent.py
