@@ -15,7 +15,7 @@ Just install the requirements:
 pip3 install -r requirements.txt
 ```
 
-Replace Server_URL with the IP of your local machine/C2 server
+Replace Server_URL (Agent.py) with the IP of your local machine/C2 server
 ```
 SERVER_URL = "http://<IP>:4444"
 ```
